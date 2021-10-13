@@ -1,5 +1,4 @@
-# Spring Chitkara University Live
-aka
+
 # SCUL 📚⚽🏖️
 
 # Best of luck on the journey to learn Backend in Spring .🚗
