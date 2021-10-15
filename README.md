@@ -1,5 +1,4 @@
-# Spring Chitkara University Live
-aka
+
 # SCUL 📚⚽🏖️
 
 # Best of luck on the journey to learn Backend in Spring .🚗
@@ -109,6 +108,7 @@ Java and Spring Interview Questions:
 https://www.baeldung.com/spring-boot-interview-questions?fbclid=IwAR1LAIhIP89fMGTcZymcWR55QQu0a-z0q4alXmwLZMMKTaS6JHlb4lpvRjs
 
 https://www.journaldev.com/2366/core-java-interview-questions-and-answers
+<<<<<<< HEAD
 
 Heroku
 
@@ -177,3 +177,5 @@ https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-18-04
 
 https://youtu.be/hyJZP-rgooc
+=======
+>>>>>>> 67ccb04345a1a24ebe6cc8971f0212d7dd0e0037
