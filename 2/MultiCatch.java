@@ -16,7 +16,7 @@ public class MultiCatch {
                   }    
                catch(Exception e)  
                   {  
-                   System.out.println("Parent Exception occurs");  
+                   System.out.println("Parent Exception occurs"+e);  
                   }             
                System.out.println("rest of the code");    
     }  

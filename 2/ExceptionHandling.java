@@ -6,19 +6,25 @@ public class ExceptionHandling {
 	}
 	static void fun1()
 	{
-		int a,b;
-		a=5;
-		b=3;
-		int c=a/b;
-		System.out.println(c);
-//		try
-//		{
-//			fun2();
-//		}
-//		catch(Exception e)
-//		{
-//			System.out.println(e.getClass()+" :"+e.getMessage());
-//		}
+		try{
+			int a,b;
+			a=5;
+			b=3;
+			int c=a/b;
+			System.out.println(c);
+		}
+		catch(ArithmeticException e){
+			System.out.println(e);
+		}
+		
+		try
+		{
+			fun2();
+		}
+		catch(Exception e)
+		{
+			System.out.println(e.getClass()+" :"+e.getMessage());
+		}
 		try
 		{
 			Thread.sleep(5000);

@@ -34,6 +34,9 @@ How to download on Mac : https://www.youtube.com/watch?v=8BrZ7CMrNe8
 
 ## Getting comfortable with using IntelliJ for beginners/eclipse users : https://www.youtube.com/watch?v=H_XxH66lm3U
 
+## IntelliJ Shortcuts
+https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html?keymap=secondary_macos
+
 ## Spring Initializer
 https://start.spring.io/
 
@@ -46,6 +49,8 @@ https://start.spring.io/
 How to download on windows : https://www.youtube.com/watch?v=3ODSQ0EpoQI
 How to download on Mac : https://www.youtube.com/watch?v=j0OnSAP-KtU
 2. Resources - https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+https://www.baeldung.com/install-maven-on-windows-linux-mac
 
 ## Spring Basics
 1. Resources - https://www.baeldung.com/ , https://docs.spring.io/spring-framework/docs/current/reference/html/
@@ -104,3 +109,71 @@ Java and Spring Interview Questions:
 https://www.baeldung.com/spring-boot-interview-questions?fbclid=IwAR1LAIhIP89fMGTcZymcWR55QQu0a-z0q4alXmwLZMMKTaS6JHlb4lpvRjs
 
 https://www.journaldev.com/2366/core-java-interview-questions-and-answers
+
+Heroku
+
+https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+
+https://www.youtube.com/watch?v=KDK5xXPJVIg
+
+https://www.callicoder.com/deploy-host-spring-boot-apps-on-heroku/
+
+AWS
+
+https://www.youtube.com/watch?v=IT1X42D1KeA
+
+https://www.youtube.com/watch?v=6RrqytT0-I8
+
+ngrok
+
+https://ngrok.com/download
+
+Swagger
+
+https://www.youtube.com/watch?v=gduKpLW_vdY
+
+Basics of Spring Boot
+
+https://www.youtube.com/watch?v=msXL2oDexqw&list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
+
+RestTemplate & Microservices
+
+https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas
+
+=========================================================
+
+Links for Git, GitHub & Heroku:
+https://guides.github.com/activities/hello-world/
+
+https://youtu.be/QTOkqzCTGxw
+
+https://youtu.be/xuB1Id2Wxak
+
+https://www.kindsonthegenius.com/devops-ci-cd-pipeline-step-by-step-tutorial-springboot-github-heroku/
+
+https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+
+Spring Actuator:
+https://youtu.be/ojc_Jy_0EgI
+
+https://www.callicoder.com/spring-boot-actuator/
+
+Redis:
+https://youtu.be/Hbt56gFj998
+
+https://youtu.be/YWIzp3fRvvY
+
+https://redislabs.com/blog/redis-on-windows-10/
+
+kafka :
+https://www.youtube.com/watch?v=W4_aGb_MOls&ab_channel=HusseinNasser
+
+https://www.youtube.com/watch?v=oUJbuFMyBDk&ab_channel=GauravSen
+
+https://www.youtube.com/watch?v=FMhbR_kQeHw&t=574s&ab_channel=GauravSen
+
+https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-18-04
+
+https://youtu.be/hyJZP-rgooc
