@@ -1,20 +1,20 @@
 
 # SCUL 📚⚽🏖️
 
-# Best of luck on the journey to learn Backend in Spring .🚗
+## Best of luck on the journey to learn Backend in Spring .🚗
 Its a beautiful learning journey and I would like to thank all my mentors who have not just changed my life but also showed me the right path .
 
-# [IMP] Install Java ☕ version 8 and above should be good .In terms of JDK , 1.8 or above .To check if java is installed , type in the terminal/cmd : java -version 
+## [IMP] Install Java ☕ version 8 and above should be good .In terms of JDK , 1.8 or above .To check if java is installed , type in the terminal/cmd : java -version 
 
-# [IMP] IntelliJ is widely used IDE in the industry for Java development .We are using the free community version CE Links in the Downloads section with tutorials on how to download .
+## [IMP] IntelliJ is widely used IDE in the industry for Java development .We are using the free community version CE Links in the Downloads section with tutorials on how to download .
 
-# [IMP] Install Maven (Useful links given below in Downloads section)
+## [IMP] Install Maven (Useful links given below in Downloads section)
 
-# Install and explore "Postman" (by hitting some APIs), study about JSON also (Useful links given below)
+## Install and explore "Postman" (by hitting some APIs), study about JSON also (Useful links given below)
 
-# Install MySQL (including workbench) and try some commands(Creating table etc.) (Useful links given below)
+## Install MySQL (including workbench) and try some commands(Creating table etc.) (Useful links given below)
 
-# Study about REST APIs (GET, POST, PUT etc.) (Useful links given below)
+## Study about REST APIs (GET, POST, PUT etc.) (Useful links given below)
 
 ===========================================================
 
@@ -177,5 +177,12 @@ https://www.geeksforgeeks.org/how-to-install-and-run-apache-kafka-on-windows/
 https://www.digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-ubuntu-18-04
 
 https://youtu.be/hyJZP-rgooc
-=======
->>>>>>> 67ccb04345a1a24ebe6cc8971f0212d7dd0e0037
+
+To find out what process is using 8080 port in mac .
+https://mkyong.com/mac/mac-osx-what-program-is-using-port-8080/
+
+https://stackoverflow.com/questions/3855127/find-and-kill-process-locking-port-3000-on-mac
+
+lsof -i :8080 | grep LISTEN
+ps -ef <pid> --> to know app using port
+kill -9 <pid>
