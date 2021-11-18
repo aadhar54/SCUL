@@ -19,15 +19,17 @@ public class PersonController {
 
     }
 
-    @RequestMapping(value = "/createTable", method = RequestMethod.POST)
-    public void createTable(@RequestParam(value = "name") String name) throws SQLException {
+    @PostMapping("/createTable")
+    public boolean createTable(@RequestParam String name) throws SQLException {
         DBOperations.createTable(name);
+        return true ;
     }
 
     @RequestMapping(value = "/insertPerson", method = RequestMethod.POST)
-    public void insertPerson(@RequestBody CreateRequest request) throws SQLException {
+    public boolean insertPerson(@RequestBody CreateRequest request) throws SQLException {
 
-        DBOperations.insertPerson(request);
+        boolean operation_result = DBOperations.insertPerson(request);
+        return operation_result;
     }
 
 

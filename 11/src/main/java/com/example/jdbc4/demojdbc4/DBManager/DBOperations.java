@@ -12,6 +12,7 @@ public class DBOperations {
 
     private static volatile Connection connection;
 
+
     public static Connection getConnection() throws SQLException {
 
         if(connection == null){
@@ -55,24 +56,28 @@ public class DBOperations {
         closeConnection();
     }
 
-    public static void insertPerson(CreateRequest request) throws SQLException {
+    public static boolean insertPerson(CreateRequest request) throws SQLException {
 
         getConnection();
 
-        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO person(id,name,age,address) VALUES (null, ?, ?, ?)");
+        PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO Person(id,name,age,address) VALUES (null, ?, ?, ?)");
         preparedStatement.setString(1, request.getName());
         preparedStatement.setInt(2, request.getAge());
         preparedStatement.setString(3, request.getAddress());
 
         int rows_affected = preparedStatement.executeUpdate();
 
+        closeConnection();
+
         if(rows_affected > 0){
             System.out.println("succesfully inserted the record");
+            return true;
         }else{
             System.out.println("unable to insert the record");
+            return false;
         }
 
-        closeConnection();
+
     }
 
     public Person getPersonById(){
@@ -84,15 +89,14 @@ public class DBOperations {
         getConnection();
 
         Statement statement = connection.createStatement();
-        ResultSet resultSet = statement.executeQuery("SELECT * FROM person");
+        ResultSet resultSet = statement.executeQuery("SELECT * FROM Person");
         List<Person> persons = new ArrayList<>();
         while(resultSet.next()){
 
+            int id = resultSet.getInt(1);
             String name = resultSet.getString(2);
             int age = resultSet.getInt(3);
             String add = resultSet.getString(4);
-
-            int id = resultSet.getInt(1);
 
             Person person = new Person(id, name, age, add);
 
