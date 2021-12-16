@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class PersonController {
 
-    @GetMapping(value = "/getPersons")
+    @GetMapping("/getPersons")
     public List<Person> getPersons() throws SQLException {
 
         // calling dao to get object from db
@@ -25,7 +25,7 @@ public class PersonController {
         return true ;
     }
 
-    @RequestMapping(value = "/insertPerson", method = RequestMethod.POST)
+    @PostMapping("/insertPerson")
     public boolean insertPerson(@RequestBody CreateRequest request) throws SQLException {
 
         boolean operation_result = DBOperations.insertPerson(request);
